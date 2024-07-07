@@ -1,7 +1,103 @@
 @charset "UTF-8";
 
-/*  
-    Paleta de cores
-    Verde: #49a09d
-    Lilás: #572c82
-*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor01: #49a09d;
+    --cor02: #572c82;
+    --cor03: #2D6462;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5F2C82;
+}
+
+#login img {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+main {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.397);
+    background-color: white;
+    border-radius: 20px;
+    height: 540px;
+}
+
+.form {
+    padding: 10px;
+}
+
+.form h1 {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.form p {
+    max-width: 255px;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.email, .senha {
+    padding: 5px;
+    margin-bottom: 0.5em;
+    border-radius: 8px;
+    background-color: var(--cor02);
+}
+
+input {
+    background-color: #93CFCD;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+}
+
+input[type=submit] {
+    color: white;
+    width: 100%;
+    background-color: #54AAA7;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+}
+
+input[type=submit]:hover {
+    background-color: var(--cor03);
+}
+
+a {
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    display: block;
+    border: 1px solid var(--cor01);
+}
+
+a:hover {
+    background-color: #6CD3CF;
+}
+
+label > span {
+    color: white;
+    padding: 8px;
+    display: inline;
+    vertical-align: middle;
+}
+
+
