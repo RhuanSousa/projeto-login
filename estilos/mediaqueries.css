@@ -8,7 +8,7 @@
 
     main {
         max-width: 900px;
-        height: 320px;
+        height: 340px;
     }
 
     .form p {
@@ -22,7 +22,7 @@
     #login img {
         border-radius: 20px 0 0 20px;
         width: 200px;
-        height: 320px;
+        height: 340px;
     }
 
     input {
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(#572c82, #49a09d);
     }
